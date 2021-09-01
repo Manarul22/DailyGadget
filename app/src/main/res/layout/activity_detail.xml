@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0f0f0"
-    tools:context=".data.ui.DetailActivity"
+    tools:context=".data.ui.detail.DetailActivity"
     tools:ignore="ContentDescription">
 
 
@@ -52,7 +52,7 @@
                 android:layout_height="24dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="24dp"
-                android:src="@drawable/ic_share"
+                app:srcCompat="@drawable/ic_share"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/ivCart"
                 app:layout_constraintTop_toTopOf="parent" />
